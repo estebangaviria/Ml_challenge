@@ -30,23 +30,24 @@ Final cross-validated RMSE: **~1.95**
 
 ## Project Structure
 
+```
 ml_challenge/
 │
 ├── data/
-│ ├── training_data.csv
-│ └── blind_test_data.csv
+│   ├── training_data.csv
+│   └── blind_test_data.csv
 │
 ├── models/
-│ ├── xgb_model.pkl
-│ └── model_metadata.json
+│   ├── xgb_model.pkl
+│   └── model_metadata.json
 │
 ├── src/
-│ ├── train.py
-│ └── predict.py
+│   ├── train.py
+│   └── predict.py
 │
 ├── notebook_exploration.ipynb
 └── README.md
-
+```
 
 ---
 
